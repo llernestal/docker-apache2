@@ -15,7 +15,7 @@ RUN /build.sh
 
 EXPOSE 80
 
-VOLUME ["/var/log/php-fpm"]
+VOLUME ["/var/log/apache2"]
 
 COPY start.sh /start.sh
 RUN chmod 0755 /start.sh
